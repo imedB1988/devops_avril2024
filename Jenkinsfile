@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                sh 'ls -al'
+               sh 'cat app.py' 
             }
         }
         stage('Test') {
