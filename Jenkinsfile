@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'ls -al'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Bonjour Gomycode'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Bonjour imed'
             }
         }
     }
