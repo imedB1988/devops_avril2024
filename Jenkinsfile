@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                ls -al
+               sh 'ls -al'
             }
         }
         stage('Test') {
